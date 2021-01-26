@@ -131,7 +131,7 @@ public class HelperMethods {
 
 	// The below method will read XML path and return required attributes as an
 	// array
-	public static String[] readXmlDataByXpathStudy(String xmlPath, String propFilePath)
+	public static String[] readXmlDataByXpathSingeObject(String xmlPath, String propFilePath)
 			throws ParserConfigurationException, XPathExpressionException, SAXException, IOException {
 		FileReader fReader = null;
 		String[] tempArray = null;
